@@ -48,7 +48,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 public class CreateBigXlsx {
 	
 	public final static String DRIVER = "oracle.jdbc.driver.OracleDriver";
-//	public final static String URL = "jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = gisp01-crs.sempra.com)(PORT = 1521))(LOAD_BALANCE = yes))(CONNECT_DATA =(SERVICE_NAME = gisphp03)))";
+//	public final static String URL = "jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = any)(PORT = 1521))(LOAD_BALANCE = yes))(CONNECT_DATA =(SERVICE_NAME = gisphp03)))";
 	public final static String URL = "jdbc:oracle:thin:";
 
 	static Properties props;
